@@ -1,6 +1,24 @@
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: blueviolet;
+  color: #e8e8e8;
   font-size: 50px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: regular;
+  color: #924fff;
+}
+body {
+  background-color: #202630;
+}
+.intro {
+  margin-top: 300px;
+}
+.purpleBackground {
+  background-color: #924fff;
+  height: 900px;
+  width: 700px;
+  margin-left: 920px;
+  margin-top: -500px;
 }
