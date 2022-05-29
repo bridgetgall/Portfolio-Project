@@ -14,15 +14,19 @@ body {
   color: var(--text-color);
   font-size: 50px;
 }
-.project-title {
+.weather-title {
+  color: var(--text-color);
+  margin-top: 100px;
+}
+.skate-title {
   color: var(--text-color);
   margin-top: 100px;
 }
 .work {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 800;
   color: var(--text-color);
-  margin-top: 200px;
+  margin-top: 10px;
 }
 .subheader {
   font-family: var(--main-font);
@@ -46,13 +50,77 @@ body {
   font-weight: regular;
   color: var(--seconary-color);
 }
+.skate-text {
+  font-family: var(--main-font);
+  font-weight: regular;
+  color: var(--seconary-color);
+}
+
 .weather-app {
   max-width: 300px;
   margin-left: 300px;
   margin-top: 60px;
+  margin-bottom: 10px;
+  box-shadow: 15px 15px 0px 1px var(--seconary-color);
+}
+.weather-description {
+  margin-top: -30px;
+  width: 350px;
+}
+.skate-description {
+  margin-left: 310px;
+  margin-top: -25px;
+}
+.skate-app {
+  max-width: 300px;
+
+  margin-top: 60px;
   margin-bottom: 30px;
   box-shadow: 15px 15px 0px 1px var(--seconary-color);
 }
-.project-description {
-  margin-top: -30px;
+.work-container {
+  border: 5px solid var(--seconary-color);
+  margin-top: 200px;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    margin-top: 100px;
+    margin-left: 125px;
+  }
+  .subheader {
+    width: 300px;
+  }
+  .headshot {
+    margin-left: 85px;
+    margin-top: 50px;
+  }
+  .weather-description {
+    text-align: center;
+    width: 500px;
+    margin-top: -75px;
+    margin-left: 5px;
+  }
+  .skate-description {
+    text-align: center;
+    width: 500px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  .work-container {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 400px) {
+  .work-container {
+    width: 500px;
+  }
+  .weather-description {
+    width: 450px;
+    text-align: center;
+  }
+  .skate-description {
+    width: 450px;
+    text-align: center;
+  }
 }
