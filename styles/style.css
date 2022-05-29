@@ -5,19 +5,29 @@
   --main-font: "Montserrat", sans-serif;
 }
 
-h1 {
+body {
+  background-color: var(--primary-color);
+}
+.header {
   font-family: var(--main-font);
   font-weight: bold;
   color: var(--text-color);
   font-size: 50px;
 }
-h2 {
+.project-title {
+  color: var(--text-color);
+  margin-top: 100px;
+}
+.work {
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: var(--text-color);
+  padding-top: 150px;
+}
+.subheader {
   font-family: var(--main-font);
   font-weight: regular;
   color: var(--seconary-color);
-}
-body {
-  background-color: var(--primary-color);
 }
 .hero {
   margin-top: 260px;
@@ -28,6 +38,19 @@ body {
   max-width: 320px;
   margin-left: 750px;
   margin-top: -280px;
-  background-color: #e8e8e8;
+  background-color: var(--text-color);
+  box-shadow: 15px 15px 0px 1px var(--seconary-color);
+}
+.app-text {
+  font-family: var(--main-font);
+  font-weight: regular;
+  color: var(--seconary-color);
+  margin-top: -30px;
+}
+.weather-app {
+  max-width: 300px;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 30px;
   box-shadow: 15px 15px 0px 1px var(--seconary-color);
 }
