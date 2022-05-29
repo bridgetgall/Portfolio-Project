@@ -1,26 +1,33 @@
+:root {
+  --primary-color: #202630;
+  --seconary-color: #924fff;
+  --text-color: #e8e8e8;
+  --main-font: "Montserrat", sans-serif;
+}
+
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
-  color: #e8e8e8;
+  color: var(--text-color);
   font-size: 50px;
 }
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--main-font);
   font-weight: regular;
-  color: #924fff;
+  color: var(--seconary-color);
 }
 body {
-  background-color: #202630;
+  background-color: var(--primary-color);
 }
-.intro {
-  margin-top: 300px;
-  margin-left: 30px;
+.hero {
+  margin-top: 260px;
+  margin-left: 100px;
 }
 
 .headshot {
   max-width: 320px;
-  margin-top: -230px;
-  margin-left: 840px;
+  margin-left: 750px;
+  margin-top: -280px;
   background-color: #e8e8e8;
-  box-shadow: 1px 1px 9px 1px #202630;
+  box-shadow: 15px 15px 0px 1px var(--seconary-color);
 }
