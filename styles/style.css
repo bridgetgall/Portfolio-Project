@@ -82,6 +82,26 @@ body {
   border: 5px solid var(--seconary-color);
   margin-top: 200px;
 }
+h2 {
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.aboutPage {
+  background-color: var(--text-color);
+}
+.first {
+  margin: 200px 300px;
+  width: 500px;
+}
+.second {
+  margin: 375px 155px;
+  width: 490px;
+}
+.third {
+  margin: -250px 300px;
+  width: 500px;
+}
 
 @media (max-width: 960px) {
   .hero {
@@ -110,7 +130,25 @@ body {
   .work-container {
     margin-top: 60px;
   }
+  .first {
+  margin: 0;
+  padding: 100px 50px;
+  text-align: center;
+  width: 390px;
+  }
+  .second {
+  margin: 0;
+  padding: 50px 50px;
+  text-align: center;
+  width: 390px;
 }
+.third {
+  margin: 0;
+  padding: 50px 50px;
+  text-align: center;
+  width: 390px;
+}
+
 @media (max-width: 400px) {
   .work-container {
     width: 500px;
