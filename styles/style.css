@@ -102,6 +102,20 @@ h2 {
   margin: -250px 300px;
   width: 500px;
 }
+.skate-image {
+  box-shadow: 15px 15px 0px 1px var(--seconary-color);
+  max-width: 280px;
+  margin: 300px 200px;
+}
+.weather-image {
+  box-shadow: 15px 15px 0px 1px var(--seconary-color);
+  max-width: 280px;
+  margin: 300px 150px;
+}
+
+.skate-header {
+  color: var(--text-color);
+}
 
 @media (max-width: 960px) {
   .hero {
@@ -131,24 +145,24 @@ h2 {
     margin-top: 60px;
   }
   .first {
-  margin: 0;
-  padding: 100px 50px;
-  text-align: center;
-  width: 390px;
+    margin: 0;
+    padding: 100px 50px;
+    text-align: center;
+    width: 390px;
   }
   .second {
-  margin: 0;
-  padding: 50px 50px;
-  text-align: center;
-  width: 390px;
+    margin: 0;
+    padding: 50px 50px;
+    text-align: center;
+    width: 390px;
+  }
+  .third {
+    margin: 0;
+    padding: 50px 50px;
+    text-align: center;
+    width: 390px;
+  }
 }
-.third {
-  margin: 0;
-  padding: 50px 50px;
-  text-align: center;
-  width: 390px;
-}
-
 @media (max-width: 400px) {
   .work-container {
     width: 500px;
