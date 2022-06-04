@@ -105,12 +105,14 @@ h2 {
 .skate-image {
   box-shadow: 15px 15px 0px 1px var(--seconary-color);
   max-width: 280px;
-  margin: 300px 200px;
+  margin: 300px 300px;
+  margin-bottom: 50px;
 }
 .weather-image {
   box-shadow: 15px 15px 0px 1px var(--seconary-color);
   max-width: 280px;
-  margin: 300px 200px;
+  margin: 300px 100px;
+  margin-bottom: 50px;
 }
 
 .work-title {
@@ -126,16 +128,26 @@ h2 {
   text-align: center;
   margin-bottom: -270px;
   margin-top: 300px;
+  margin-left: 185px;
   font-size: 28px;
 }
 .weather-header {
   color: var(--text-color);
   text-align: center;
-  margin: 300px -20px -270px;
+  margin-top: 300px;
+  margin-bottom: -270px;
+  margin-left: -210px;
   font-size: 28px;
 }
-
-@media (max-width: 960px) {
+.hover11 figure img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover11 figure:hover img {
+  opacity: 0.75;
+}
+@media (max-width: 1435px) {
   .hero {
     margin-top: 100px;
     margin-left: 125px;
@@ -180,6 +192,19 @@ h2 {
     text-align: center;
     width: 390px;
   }
+  .skate-image {
+    margin-bottom: -170px;
+    margin-left: 210px;
+  }
+  .weather-image {
+    margin-left: 210px;
+  }
+  .skate-header {
+    margin-left: -10px;
+  }
+  .weather-header {
+    margin-left: -10px;
+  }
 }
 @media (max-width: 400px) {
   .work-container {
@@ -192,5 +217,12 @@ h2 {
   .skate-description {
     width: 450px;
     text-align: center;
+  }
+  .work-title {
+    margin: 50px -25px 0;
+    width: 100%;
+  }
+  .skate-header {
+    margin: 0px -100px 0;
   }
 }
