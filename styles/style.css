@@ -192,11 +192,19 @@ h2 {
 .navbar-toggler {
   background-color: var(--seconary-color);
 }
+.contact-button {
+  background-color: var(--text-color);
+}
 .dropdown-item {
   color: var(--text-color);
   text-align: right;
 }
-
+.about-link {
+  color: var(--primary-color);
+}
+li.active a {
+  font-weight: bolder;
+}
 @media (max-width: 1435px) {
   .hero {
     margin-top: 100px;
