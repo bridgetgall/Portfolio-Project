@@ -205,6 +205,34 @@ h2 {
 li.active a {
   font-weight: bolder;
 }
+
+footer .social a {
+  color: var(--text-color);
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+}
+footer .social a:hover {
+  color: var(--seconary-color);
+}
+footer .social-about a {
+  color: var(--seconary-color);
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+}
+footer .social-about a:hover {
+  color: var(--primary-color);
+}
+footer .social-contact a {
+  color: var(--text-color);
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+}
+footer .social-contact a:hover {
+  color: var(--primary-color);
+}
 @media (max-width: 1435px) {
   .hero {
     margin-top: 100px;
