@@ -8,9 +8,9 @@
 body {
   background-color: var(--primary-color);
 }
-.header {
+.hero h3 {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 500;
   color: var(--text-color);
   font-size: 50px;
 }
@@ -29,14 +29,10 @@ body {
   color: var(--secondary-color);
 }
 .hero {
-  margin-top: 210px;
-  margin-left: 100px;
+  margin: 150px 0px 0px 20px;
 }
-
 .headshot {
-  max-width: 320px;
-  margin-left: 750px;
-  margin-top: -300px;
+  max-width: 400px;
   background-color: var(--text-color);
   box-shadow: 15px 15px 0px 1px var(--secondary-color);
 }
@@ -54,17 +50,18 @@ h2 {
 .aboutPage {
   background-color: var(--text-color);
 }
-.first {
-  margin: 150px 200px;
-  width: 500px;
+.about-paragraphs {
+  max-width: 400px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+  transition: transform 0.2s;
 }
-.second {
-  margin: 300px 0px;
-  width: 490px;
-}
-.third {
-  margin: -250px 200px;
-  width: 550px;
+
+.about-paragraphs:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 1px 1px #924fff;
 }
 
 .work-title {
@@ -179,7 +176,7 @@ footer .social-about {
 }
 
 footer .social-about a:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 footer .social-contact a {
   color: var(--text-color);
@@ -244,4 +241,34 @@ footer .footer-text {
 }
 .content img {
   box-shadow: 10px 10px 0px #924fff;
+}
+
+@media (max-width: 900px) {
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+
+  .home-content {
+    text-align: center;
+    padding: 0;
+    margin-top: -100px;
+  }
+  .headshot {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-paragraphs {
+    padding-top: 70px;
+  }
+  .hero {
+    margin-left: -1px;
+  }
 }
