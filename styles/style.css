@@ -1,6 +1,6 @@
 :root {
   --primary-color: #202630;
-  --seconary-color: #924fff;
+  --secondary-color: #924fff;
   --text-color: #e8e8e8;
   --main-font: "Montserrat", sans-serif;
 }
@@ -20,11 +20,13 @@ body {
   font-weight: 800;
   color: var(--text-color);
   margin-top: 10px;
+  text-decoration: underline;
+  text-align: center;
 }
 .subheader {
   font-family: var(--main-font);
   font-weight: regular;
-  color: var(--seconary-color);
+  color: var(--secondary-color);
 }
 .hero {
   margin-top: 210px;
@@ -36,12 +38,12 @@ body {
   margin-left: 750px;
   margin-top: -300px;
   background-color: var(--text-color);
-  box-shadow: 15px 15px 0px 1px var(--seconary-color);
+  box-shadow: 15px 15px 0px 1px var(--secondary-color);
 }
 .app-text {
   font-family: var(--main-font);
   font-weight: regular;
-  color: var(--seconary-color);
+  color: var(--secondary-color);
 }
 
 h2 {
@@ -74,16 +76,9 @@ h2 {
   font-weight: 900;
   text-decoration: underline;
 }
-.hover11 figure img {
-  opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-.hover11 figure:hover img {
-  opacity: 0.75;
-}
+
 .contact-page {
-  background-color: var(--seconary-color);
+  background-color: var(--secondary-color);
 }
 .contact-title {
   color: var(--text-color);
@@ -116,7 +111,7 @@ h2 {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 40px;
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .navbar-brand-home:hover {
@@ -126,7 +121,7 @@ h2 {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 40px;
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .navbar-brand-about:hover {
@@ -145,7 +140,7 @@ h2 {
 }
 
 .navbar-toggler {
-  background-color: var(--seconary-color);
+  background-color: var(--secondary-color);
 }
 .contact-button {
   background-color: var(--text-color);
@@ -170,16 +165,21 @@ footer .social a {
   padding: 10px;
 }
 footer .social a:hover {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
 }
 footer .social-about a {
-  color: var(--seconary-color);
+  color: var(--secondary-color);
   font-size: 30px;
-  text-decoration: none;
-  padding: 10px;
 }
+footer .social-about {
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
 footer .social-about a:hover {
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 footer .social-contact a {
   color: var(--text-color);
@@ -197,7 +197,7 @@ footer .footer-text {
 }
 .footer-text a {
   text-decoration: none;
-  color: var(--seconary-color);
+  color: var(--secondary-color);
 }
 .footer-text a:hover {
   text-decoration: underline;
@@ -208,8 +208,40 @@ footer .footer-text {
   color: var(--text-color);
   line-height: 1.5;
 }
+.content-container {
+  padding: 60px 20px;
+}
 .content p {
   font-family: var(--main-font);
   font-weight: 100;
   color: var(--text-color);
+}
+.launch {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: var(--main-font);
+  border-radius: 10px;
+}
+
+.launch a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition-duration: 0.4s;
+  transition: all 200ms ease;
+}
+.launch:hover {
+  border: var(--secondary-color);
+  border: 1px solid #924fff;
+  background-color: #202630;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.content img {
+  box-shadow: 10px 10px 0px #924fff;
 }
