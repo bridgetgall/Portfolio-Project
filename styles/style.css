@@ -173,6 +173,7 @@ footer .social-about {
   position: fixed;
   bottom: 0;
   left: 0;
+  margin-bottom: 4px;
 }
 
 footer .social-about a:hover {
